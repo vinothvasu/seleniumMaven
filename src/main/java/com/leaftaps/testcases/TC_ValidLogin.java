@@ -10,8 +10,8 @@ public class TC_ValidLogin extends TestNGReusables {
 	@Test
 	public void TC_validLogin() {
 		new LoginPage(driver)
-		.enterUsername("DemoSalesManager")
-		.enterPassword("crmsfa")
+		.enterUsername("Jaya")
+		.enterPassword("Venkat")
 		.clickLogin();
 	}
 }
